@@ -1,0 +1,6 @@
+CVE-2017-7479,2.4.0-4,2.4.0-5,openvpn_encrypt,packet_id_read,test_packet_id_write_short_wrap,test_packet_id_write_long_wrap,openvpn_encrypt_aead,openvpn_encrypt_v1,tls_crypt_wrap
+CVE-2017-7508,2.4.0-6,2.4.3-1,mss_fixup_ipv6,mss_fixup_dowork,,,,,
+CVE-2017-7520,2.4.0-6,2.4.3-1,ntlm_phase_3,,,,,,
+CVE-2017-7521,2.4.0-6,2.4.3-1,extract_x509_extension,,,,,,
+CVE-2017-7522,2.4.0-6,2.4.3-1,asn1_buf_to_c_string,,,,,,
+CVE-2017-12166,2.4.3-4,2.4.4-1,read_key,,,,,,

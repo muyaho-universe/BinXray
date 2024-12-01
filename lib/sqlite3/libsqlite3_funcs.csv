@@ -1,0 +1,9 @@
+sqlite3EndTable
+sqlite3ExprAddCollateToken
+sqlite3VdbeExec
+sqlite3VXPrintf
+corruptSchema
+sqlite3ExprAddCollateString
+sqlite3StrAccumEnlarge
+exprAnalyze
+sqlite3AppendChar

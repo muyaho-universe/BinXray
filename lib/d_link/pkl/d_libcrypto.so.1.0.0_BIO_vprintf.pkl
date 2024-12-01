@@ -1,0 +1,1628 @@
+(ibclass
+BFunc
+p0
+(dp1
+S'hash'
+p2
+NsS'name'
+p3
+S'BIO_vprintf'
+p4
+sS'start_address'
+p5
+L794628L
+sS'flag'
+p6
+NsS'program'
+p7
+NsS'bbs'
+p8
+(lp9
+(ibclass
+BBasicBlock
+p10
+(dp11
+S'function'
+p12
+NsS'binstrs'
+p13
+(lp14
+(ibclass
+BInstr
+p15
+(dp16
+g2
+NsS'disasm'
+p17
+S'LDR     R12, =(_GLOBAL_OFFSET_TABLE_ - 0xC202C)'
+p18
+sS'bytes'
+p19
+S'd0c09fe5'
+p20
+sS'disasm_striped'
+p21
+Vldr ip, [pc, #0xd0]
+p22
+sg5
+L794628L
+sg6
+NsS'mnem'
+p23
+S'LDR'
+p24
+sS'address'
+p25
+S'0xc2004L'
+p26
+sS'basicblock'
+p27
+Nsba(ibclass
+BInstr
+p28
+(dp29
+g2
+Nsg17
+S'STMFD   SP!, {R4-R7,LR}'
+p30
+sg19
+S'f0402de9'
+p31
+sg21
+Vpush {r4, r5, r6, r7, lr}
+p32
+sg5
+L794632L
+sg6
+Nsg23
+S'STM'
+p33
+sg25
+S'0xc2008L'
+p34
+sg27
+Nsba(ibclass
+BInstr
+p35
+(dp36
+g2
+Nsg17
+S'MOV     R5, R1'
+p37
+sg19
+S'0150a0e1'
+p38
+sg21
+Vmov r5, r1
+p39
+sg5
+L794636L
+sg6
+Nsg23
+S'MOV'
+p40
+sg25
+S'0xc200cL'
+p41
+sg27
+Nsba(ibclass
+BInstr
+p42
+(dp43
+g2
+Nsg17
+S'SUB     SP, SP, #0x820'
+p44
+sg19
+S'82de4de2'
+p45
+sg21
+Vsub sp, sp, #0x820
+p46
+sg5
+L794640L
+sg6
+Nsg23
+S'SUB'
+p47
+sg25
+S'0xc2010L'
+p48
+sg27
+Nsba(ibclass
+BInstr
+p49
+(dp50
+g2
+Nsg17
+S'LDR     R1, =(aB_print_c - 0x1809D4)'
+p51
+sg19
+S'c4109fe5'
+p52
+sg21
+Vldr r1, [pc, #0xc4]
+p53
+sg5
+L794644L
+sg6
+Nsg23
+S'LDR'
+p54
+sg25
+S'0xc2014L'
+p55
+sg27
+Nsba(ibclass
+BInstr
+p56
+(dp57
+g2
+Nsg17
+S'MOV     R7, R0'
+p58
+sg19
+S'0070a0e1'
+p59
+sg21
+Vmov r7, r0
+p60
+sg5
+L794648L
+sg6
+Nsg23
+S'MOV'
+p61
+sg25
+S'0xc2018L'
+p62
+sg27
+Nsba(ibclass
+BInstr
+p63
+(dp64
+g2
+Nsg17
+S'LDR     R0, =(aDoapr - 0x1809D4)'
+p65
+sg19
+S'c0009fe5'
+p66
+sg21
+Vldr r0, [pc, #0xc0]
+p67
+sg5
+L794652L
+sg6
+Nsg23
+S'LDR'
+p68
+sg25
+S'0xc201cL'
+p69
+sg27
+Nsba(ibclass
+BInstr
+p70
+(dp71
+g2
+Nsg17
+S'SUB     SP, SP, #0xC'
+p72
+sg19
+S'0cd04de2'
+p73
+sg21
+Vsub sp, sp, #0xc
+p74
+sg5
+L794656L
+sg6
+Nsg23
+S'SUB'
+p75
+sg25
+S'0xc2020L'
+p76
+sg27
+Nsba(ibclass
+BInstr
+p77
+(dp78
+g2
+Nsg17
+S'ADD     R12, PC, R12 ; _GLOBAL_OFFSET_TABLE_'
+p79
+sg19
+S'0cc08fe0'
+p80
+sg21
+Vadd ip, pc, ip
+p81
+sg5
+L794660L
+sg6
+Nsg23
+S'ADD'
+p82
+sg25
+S'0xc2024L'
+p83
+sg27
+Nsba(ibclass
+BInstr
+p84
+(dp85
+g2
+Nsg17
+S'ADD     R6, SP, #0x840+var_828'
+p86
+sg19
+S'18608de2'
+p87
+sg21
+Vadd r6, sp, #0x18
+p88
+sg5
+L794664L
+sg6
+Nsg23
+S'ADD'
+p89
+sg25
+S'0xc2028L'
+p90
+sg27
+Nsba(ibclass
+BInstr
+p91
+(dp92
+g2
+Nsg17
+S'ADD     R1, R12, R1     ; "b_print.c"'
+p93
+sg19
+S'01108ce0'
+p94
+sg21
+Vadd r1, ip, r1
+p95
+sg5
+L794668L
+sg6
+Nsg23
+S'ADD'
+p96
+sg25
+S'0xc202cL'
+p97
+sg27
+Nsba(ibclass
+BInstr
+p98
+(dp99
+g2
+Nsg17
+S'MOV     R3, #0x800'
+p100
+sg19
+S'023ba0e3'
+p101
+sg21
+Vmov r3, #0x800
+p102
+sg5
+L794672L
+sg6
+Nsg23
+S'MOV'
+p103
+sg25
+S'0xc2030L'
+p104
+sg27
+Nsba(ibclass
+BInstr
+p105
+(dp106
+g2
+Nsg17
+S'MOV     R4, R2'
+p107
+sg19
+S'0240a0e1'
+p108
+sg21
+Vmov r4, r2
+p109
+sg5
+L794676L
+sg6
+Nsg23
+S'MOV'
+p110
+sg25
+S'0xc2034L'
+p111
+sg27
+Nsba(ibclass
+BInstr
+p112
+(dp113
+g2
+Nsg17
+S'ADD     R0, R12, R0     ; "doapr()"'
+p114
+sg19
+S'00008ce0'
+p115
+sg21
+Vadd r0, ip, r0
+p116
+sg5
+L794680L
+sg6
+Nsg23
+S'ADD'
+p117
+sg25
+S'0xc2038L'
+p118
+sg27
+Nsba(ibclass
+BInstr
+p119
+(dp120
+g2
+Nsg17
+S'LDR     R2, =0x302'
+p121
+sg19
+S'a4209fe5'
+p122
+sg21
+Vldr r2, [pc, #0xa4]
+p123
+sg5
+L794684L
+sg6
+Nsg23
+S'LDR'
+p124
+sg25
+S'0xc203cL'
+p125
+sg27
+Nsba(ibclass
+BInstr
+p126
+(dp127
+g2
+Nsg17
+S'SUB     R6, R6, #4'
+p128
+sg19
+S'046046e2'
+p129
+sg21
+Vsub r6, r6, #4
+p130
+sg5
+L794688L
+sg6
+Nsg23
+S'SUB'
+p131
+sg25
+S'0xc2040L'
+p132
+sg27
+Nsba(ibclass
+BInstr
+p133
+(dp134
+g2
+Nsg17
+S'MOV     R12, #0'
+p135
+sg19
+S'00c0a0e3'
+p136
+sg21
+Vmov ip, #0
+p137
+sg5
+L794692L
+sg6
+Nsg23
+S'MOV'
+p138
+sg25
+S'0xc2044L'
+p139
+sg27
+Nsba(ibclass
+BInstr
+p140
+(dp141
+g2
+Nsg17
+S'STR     R3, [SP,#0x840+var_24]'
+p142
+sg19
+S'1c388de5'
+p143
+sg21
+Vstr r3, [sp, #0x81c]
+p144
+sg5
+L794696L
+sg6
+Nsg23
+S'STR'
+p145
+sg25
+S'0xc2048L'
+p146
+sg27
+Nsba(ibclass
+BInstr
+p147
+(dp148
+g2
+Nsg17
+S'STR     R12, [SP,#0x840+var_28]'
+p149
+sg19
+S'18c88de5'
+p150
+sg21
+Vstr ip, [sp, #0x818]
+p151
+sg5
+L794700L
+sg6
+Nsg23
+S'STR'
+p152
+sg25
+S'0xc204cL'
+p153
+sg27
+Nsba(ibclass
+BInstr
+p154
+(dp155
+g2
+Nsg17
+S'STR     R6, [SP,#0x840+var_20]'
+p156
+sg19
+S'20688de5'
+p157
+sg21
+Vstr r6, [sp, #0x820]
+p158
+sg5
+L794704L
+sg6
+Nsg23
+S'STR'
+p159
+sg25
+S'0xc2050L'
+p160
+sg27
+Nsba(ibclass
+BInstr
+p161
+(dp162
+g2
+Nsg17
+S'BL      CRYPTO_push_info_'
+p163
+sg19
+S'fbf9fdeb'
+p164
+sg21
+Vbl #0xfff7e7f4
+p165
+sg5
+L794708L
+sg6
+Nsg23
+S'BL'
+p166
+sg25
+S'0xc2054L'
+p167
+sg27
+Nsba(ibclass
+BInstr
+p168
+(dp169
+g2
+Nsg17
+S'ADD     R1, SP, #0x840+var_30'
+p170
+sg19
+S'811e8de2'
+p171
+sg21
+Vadd r1, sp, #0x810
+p172
+sg5
+L794712L
+sg6
+Nsg23
+S'ADD'
+p173
+sg25
+S'0xc2058L'
+p174
+sg27
+Nsba(ibclass
+BInstr
+p175
+(dp176
+g2
+Nsg17
+S'ADD     R2, SP, #0x840+var_30'
+p177
+sg19
+S'812e8de2'
+p178
+sg21
+Vadd r2, sp, #0x810
+p179
+sg5
+L794716L
+sg6
+Nsg23
+S'ADD'
+p180
+sg25
+S'0xc205cL'
+p181
+sg27
+Nsba(ibclass
+BInstr
+p182
+(dp183
+g2
+Nsg17
+S'ADD     R3, SP, #0x840+var_20'
+p184
+sg19
+S'823e8de2'
+p185
+sg21
+Vadd r3, sp, #0x820
+p186
+sg5
+L794720L
+sg6
+Nsg23
+S'ADD'
+p187
+sg25
+S'0xc2060L'
+p188
+sg27
+Nsba(ibclass
+BInstr
+p189
+(dp190
+g2
+Nsg17
+S'ADD     R12, SP, #0x840+var_30'
+p191
+sg19
+S'81ce8de2'
+p192
+sg21
+Vadd ip, sp, #0x810
+p193
+sg5
+L794724L
+sg6
+Nsg23
+S'ADD'
+p194
+sg25
+S'0xc2064L'
+p195
+sg27
+Nsba(ibclass
+BInstr
+p196
+(dp197
+g2
+Nsg17
+S'ADD     R1, R1, #8'
+p198
+sg19
+S'081081e2'
+p199
+sg21
+Vadd r1, r1, #8
+p200
+sg5
+L794728L
+sg6
+Nsg23
+S'ADD'
+p201
+sg25
+S'0xc2068L'
+p202
+sg27
+Nsba(ibclass
+BInstr
+p203
+(dp204
+g2
+Nsg17
+S'ADD     R12, R12, #4'
+p205
+sg19
+S'04c08ce2'
+p206
+sg21
+Vadd ip, ip, #4
+p207
+sg5
+L794732L
+sg6
+Nsg23
+S'ADD'
+p208
+sg25
+S'0xc206cL'
+p209
+sg27
+Nsba(ibclass
+BInstr
+p210
+(dp211
+g2
+Nsg17
+S'ADD     R0, SP, #0x840+var_20'
+p212
+sg19
+S'820e8de2'
+p213
+sg21
+Vadd r0, sp, #0x820
+p214
+sg5
+L794736L
+sg6
+Nsg23
+S'ADD'
+p215
+sg25
+S'0xc2070L'
+p216
+sg27
+Nsba(ibclass
+BInstr
+p217
+(dp218
+g2
+Nsg17
+S'ADD     R2, R2, #0xC'
+p219
+sg19
+S'0c2082e2'
+p220
+sg21
+Vadd r2, r2, #0xc
+p221
+sg5
+L794740L
+sg6
+Nsg23
+S'ADD'
+p222
+sg25
+S'0xc2074L'
+p223
+sg27
+Nsba(ibclass
+BInstr
+p224
+(dp225
+g2
+Nsg17
+S'ADD     R3, R3, #4'
+p226
+sg19
+S'043083e2'
+p227
+sg21
+Vadd r3, r3, #4
+p228
+sg5
+L794744L
+sg6
+Nsg23
+S'ADD'
+p229
+sg25
+S'0xc2078L'
+p230
+sg27
+Nsba(ibclass
+BInstr
+p231
+(dp232
+g2
+Nsg17
+S'STR     R12, [SP,#0x840+var_840]'
+p233
+sg19
+S'00c08de5'
+p234
+sg21
+Vstr ip, [sp]
+p235
+sg5
+L794748L
+sg6
+Nsg23
+S'STR'
+p236
+sg25
+S'0xc207cL'
+p237
+sg27
+Nsba(ibclass
+BInstr
+p238
+(dp239
+g2
+Nsg17
+S'STR     R5, [SP,#0x840+var_83C]'
+p240
+sg19
+S'04508de5'
+p241
+sg21
+Vstr r5, [sp, #4]
+p242
+sg5
+L794752L
+sg6
+Nsg23
+S'STR'
+p243
+sg25
+S'0xc2080L'
+p244
+sg27
+Nsba(ibclass
+BInstr
+p245
+(dp246
+g2
+Nsg17
+S'STR     R4, [SP,#0x840+var_838]'
+p247
+sg19
+S'08408de5'
+p248
+sg21
+Vstr r4, [sp, #8]
+p249
+sg5
+L794756L
+sg6
+Nsg23
+S'STR'
+p250
+sg25
+S'0xc2084L'
+p251
+sg27
+Nsba(ibclass
+BInstr
+p252
+(dp253
+g2
+Nsg17
+S'BL      sub_C01C4'
+p254
+sg19
+S'4df8ffeb'
+p255
+sg21
+Vbl #0xffffe13c
+p256
+sg5
+L794760L
+sg6
+Nsg23
+S'BL'
+p257
+sg25
+S'0xc2088L'
+p258
+sg27
+Nsba(ibclass
+BInstr
+p259
+(dp260
+g2
+Nsg17
+S'LDR     R1, [SP,#0x840+var_28]'
+p261
+sg19
+S'18189de5'
+p262
+sg21
+Vldr r1, [sp, #0x818]
+p263
+sg5
+L794764L
+sg6
+Nsg23
+S'LDR'
+p264
+sg25
+S'0xc208cL'
+p265
+sg27
+Nsba(ibclass
+BInstr
+p266
+(dp267
+g2
+Nsg17
+S'CMP     R1, #0'
+p268
+sg19
+S'000051e3'
+p269
+sg21
+Vcmp r1, #0
+p270
+sg5
+L794768L
+sg6
+Nsg23
+S'CMP'
+p271
+sg25
+S'0xc2090L'
+p272
+sg27
+Nsba(ibclass
+BInstr
+p273
+(dp274
+g2
+Nsg17
+S'BEQ     loc_C20C4'
+p275
+sg19
+S'0a00000a'
+p276
+sg21
+Vbeq #0x30
+p277
+sg5
+L794772L
+sg6
+Nsg23
+S'B'
+p278
+sg25
+S'0xc2094L'
+p279
+sg27
+NsbasS'disasm_list'
+p280
+(lp281
+S'LDR R12, =(_GLOBAL_OFFSET_TABLE_ - 0xC202C)'
+p282
+aS'STMFD SP!, {R4-R7,LR}'
+p283
+aS'MOV R5, R1'
+p284
+aS'SUB SP, SP, #0x820'
+p285
+aS'LDR R1, =(aB_print_c - 0x1809D4)'
+p286
+aS'MOV R7, R0'
+p287
+aS'LDR R0, =(aDoapr - 0x1809D4)'
+p288
+aS'SUB SP, SP, #0xC'
+p289
+aS'ADD R12, PC, R12'
+p290
+aS'ADD R6, SP, #0x840+var_828'
+p291
+aS'ADD R1, R12, R1'
+p292
+aS'MOV R3, #0x800'
+p293
+aS'MOV R4, R2'
+p294
+aS'ADD R0, R12, R0'
+p295
+aS'LDR R2, =0x302'
+p296
+aS'SUB R6, R6, #4'
+p297
+aS'MOV R12, #0'
+p298
+aS'STR R3, mem'
+p299
+aS'STR R12, mem'
+p300
+aS'STR R6, mem'
+p301
+aS'BL CRYPTO_push_info_'
+p302
+aS'ADD R1, SP, #0x840+var_30'
+p303
+aS'ADD R2, SP, #0x840+var_30'
+p304
+aS'ADD R3, SP, #0x840+var_20'
+p305
+aS'ADD R12, SP, #0x840+var_30'
+p306
+aS'ADD R1, R1, #8'
+p307
+aS'ADD R12, R12, #4'
+p308
+aS'ADD R0, SP, #0x840+var_20'
+p309
+aS'ADD R2, R2, #0xC'
+p310
+aS'ADD R3, R3, #4'
+p311
+aS'STR R12, mem'
+p312
+aS'STR R5, mem'
+p313
+aS'STR R4, mem'
+p314
+aS'BL func'
+p315
+aS'LDR R1, mem'
+p316
+aS'CMP R1, #0'
+p317
+aS'BEQ func'
+p318
+asS'end_address'
+p319
+Nsg5
+S'0xc2004L'
+p320
+sS'preds'
+p321
+(lp322
+sg6
+NsS'succs'
+p323
+(lp324
+S'0xc2098L'
+p325
+aS'0xc20c4L'
+p326
+asS'hash_v3'
+p327
+NsS'flag_v2'
+p328
+NsS'hash_v1'
+p329
+S'a45782c9ba6eefd3731bb9b2a060fc5a'
+p330
+sS'hash_v2'
+p331
+S'd5d547d6b01a1c9905e074de5cbc278a'
+p332
+sS'mnen_list'
+p333
+(lp334
+g24
+ag33
+ag40
+ag47
+ag54
+ag61
+ag68
+ag75
+ag82
+ag89
+ag96
+ag103
+ag110
+ag117
+ag124
+ag131
+ag138
+ag145
+ag152
+ag159
+ag166
+ag173
+ag180
+ag187
+ag194
+ag201
+ag208
+ag215
+ag222
+ag229
+ag236
+ag243
+ag250
+ag257
+ag264
+ag271
+ag278
+asS'neighbour_disasm_list'
+p335
+Nsba(ibclass
+BBasicBlock
+p336
+(dp337
+g12
+Nsg13
+(lp338
+(ibclass
+BInstr
+p339
+(dp340
+g2
+Nsg17
+S'MOV     R0, R7'
+p341
+sg19
+S'0700a0e1'
+p342
+sg21
+Vmov r0, r7
+p343
+sg5
+L794776L
+sg6
+Nsg23
+S'MOV'
+p344
+sg25
+S'0xc2098L'
+p345
+sg27
+Nsba(ibclass
+BInstr
+p346
+(dp347
+g2
+Nsg17
+S'LDR     R2, [SP,#0x840+var_1C]'
+p348
+sg19
+S'24289de5'
+p349
+sg21
+Vldr r2, [sp, #0x824]
+p350
+sg5
+L794780L
+sg6
+Nsg23
+S'LDR'
+p351
+sg25
+S'0xc209cL'
+p352
+sg27
+Nsba(ibclass
+BInstr
+p353
+(dp354
+g2
+Nsg17
+S'BL      BIO_write'
+p355
+sg19
+S'e2e7ffeb'
+p356
+sg21
+Vbl #0xffff9f90
+p357
+sg5
+L794784L
+sg6
+Nsg23
+S'BL'
+p358
+sg25
+S'0xc20a0L'
+p359
+sg27
+Nsba(ibclass
+BInstr
+p360
+(dp361
+g2
+Nsg17
+S'MOV     R4, R0'
+p362
+sg19
+S'0040a0e1'
+p363
+sg21
+Vmov r4, r0
+p364
+sg5
+L794788L
+sg6
+Nsg23
+S'MOV'
+p365
+sg25
+S'0xc20a4L'
+p366
+sg27
+Nsba(ibclass
+BInstr
+p367
+(dp368
+g2
+Nsg17
+S'LDR     R0, [SP,#0x840+var_28]'
+p369
+sg19
+S'18089de5'
+p370
+sg21
+Vldr r0, [sp, #0x818]
+p371
+sg5
+L794792L
+sg6
+Nsg23
+S'LDR'
+p372
+sg25
+S'0xc20a8L'
+p373
+sg27
+Nsba(ibclass
+BInstr
+p374
+(dp375
+g2
+Nsg17
+S'BL      CRYPTO_free'
+p376
+sg19
+S'b0f6fdeb'
+p377
+sg21
+Vbl #0xfff7dac8
+p378
+sg5
+L794796L
+sg6
+Nsg23
+S'BL'
+p379
+sg25
+S'0xc20acL'
+p380
+sg27
+Nsbasg280
+(lp381
+S'MOV R0, R7'
+p382
+aS'LDR R2, mem'
+p383
+aS'BL BIO_write'
+p384
+aS'MOV R4, R0'
+p385
+aS'LDR R0, mem'
+p386
+aS'BL CRYPTO_free'
+p387
+asg319
+Nsg5
+S'0xc2098L'
+p388
+sg321
+(lp389
+S'0xc2004L'
+p390
+asg6
+Nsg323
+(lp391
+S'0xc20b0L'
+p392
+asg327
+Nsg328
+Nsg329
+S'9c29992f0db9c21f746aba13ffd8d7f0'
+p393
+sg331
+S'72742359a8e46b756e788ea0b8f97f10'
+p394
+sg333
+(lp395
+g344
+ag351
+ag358
+ag365
+ag372
+ag379
+asg335
+Nsba(ibclass
+BBasicBlock
+p396
+(dp397
+g12
+Nsg13
+(lp398
+(ibclass
+BInstr
+p399
+(dp400
+g2
+Nsg17
+S'BL      CRYPTO_pop_info'
+p401
+sg19
+S'abf9fdeb'
+p402
+sg21
+Vbl #0xfff7e6b4
+p403
+sg5
+L794800L
+sg6
+Nsg23
+S'BL'
+p404
+sg25
+S'0xc20b0L'
+p405
+sg27
+Nsba(ibclass
+BInstr
+p406
+(dp407
+g2
+Nsg17
+S'MOV     R0, R4'
+p408
+sg19
+S'0400a0e1'
+p409
+sg21
+Vmov r0, r4
+p410
+sg5
+L794804L
+sg6
+Nsg23
+S'MOV'
+p411
+sg25
+S'0xc20b4L'
+p412
+sg27
+Nsba(ibclass
+BInstr
+p413
+(dp414
+g2
+Nsg17
+S'ADD     SP, SP, #0x2C'
+p415
+sg19
+S'2cd08de2'
+p416
+sg21
+Vadd sp, sp, #0x2c
+p417
+sg5
+L794808L
+sg6
+Nsg23
+S'ADD'
+p418
+sg25
+S'0xc20b8L'
+p419
+sg27
+Nsba(ibclass
+BInstr
+p420
+(dp421
+g2
+Nsg17
+S'ADD     SP, SP, #0x800'
+p422
+sg19
+S'02db8de2'
+p423
+sg21
+Vadd sp, sp, #0x800
+p424
+sg5
+L794812L
+sg6
+Nsg23
+S'ADD'
+p425
+sg25
+S'0xc20bcL'
+p426
+sg27
+Nsba(ibclass
+BInstr
+p427
+(dp428
+g2
+Nsg17
+S'LDMFD   SP!, {R4-R7,PC}'
+p429
+sg19
+S'f080bde8'
+p430
+sg21
+Vpop {r4, r5, r6, r7, pc}
+p431
+sg5
+L794816L
+sg6
+Nsg23
+S'LDM'
+p432
+sg25
+S'0xc20c0L'
+p433
+sg27
+Nsbasg280
+(lp434
+S'BL CRYPTO_pop_info'
+p435
+aS'MOV R0, R4'
+p436
+aS'ADD SP, SP, #0x2C'
+p437
+aS'ADD SP, SP, #0x800'
+p438
+aS'LDMFD SP!, {R4-R7,PC}'
+p439
+asg319
+Nsg5
+S'0xc20b0L'
+p440
+sg321
+(lp441
+S'0xc2098L'
+p442
+aS'0xc20c4L'
+p443
+asg6
+Nsg323
+(lp444
+sg327
+Nsg328
+Nsg329
+S'2ba9920a7af33deae47330536213a229'
+p445
+sg331
+S'9522be4efe4f2325f61b6b0ae7636b61'
+p446
+sg333
+(lp447
+g404
+ag411
+ag418
+ag425
+ag432
+asg335
+Nsba(ibclass
+BBasicBlock
+p448
+(dp449
+g12
+Nsg13
+(lp450
+(ibclass
+BInstr
+p451
+(dp452
+g2
+Nsg17
+S'MOV     R0, R7'
+p453
+sg19
+S'0700a0e1'
+p454
+sg21
+Vmov r0, r7
+p455
+sg5
+L794820L
+sg6
+Nsg23
+S'MOV'
+p456
+sg25
+S'0xc20c4L'
+p457
+sg27
+Nsba(ibclass
+BInstr
+p458
+(dp459
+g2
+Nsg17
+S'MOV     R1, R6'
+p460
+sg19
+S'0610a0e1'
+p461
+sg21
+Vmov r1, r6
+p462
+sg5
+L794824L
+sg6
+Nsg23
+S'MOV'
+p463
+sg25
+S'0xc20c8L'
+p464
+sg27
+Nsba(ibclass
+BInstr
+p465
+(dp466
+g2
+Nsg17
+S'LDR     R2, [SP,#0x840+var_1C]'
+p467
+sg19
+S'24289de5'
+p468
+sg21
+Vldr r2, [sp, #0x824]
+p469
+sg5
+L794828L
+sg6
+Nsg23
+S'LDR'
+p470
+sg25
+S'0xc20ccL'
+p471
+sg27
+Nsba(ibclass
+BInstr
+p472
+(dp473
+g2
+Nsg17
+S'BL      BIO_write'
+p474
+sg19
+S'd6e7ffeb'
+p475
+sg21
+Vbl #0xffff9f60
+p476
+sg5
+L794832L
+sg6
+Nsg23
+S'BL'
+p477
+sg25
+S'0xc20d0L'
+p478
+sg27
+Nsba(ibclass
+BInstr
+p479
+(dp480
+g2
+Nsg17
+S'MOV     R4, R0'
+p481
+sg19
+S'0040a0e1'
+p482
+sg21
+Vmov r4, r0
+p483
+sg5
+L794836L
+sg6
+Nsg23
+S'MOV'
+p484
+sg25
+S'0xc20d4L'
+p485
+sg27
+Nsba(ibclass
+BInstr
+p486
+(dp487
+g2
+Nsg17
+S'B       loc_C20B0'
+p488
+sg19
+S'f4ffffea'
+p489
+sg21
+Vb #0xffffffd8
+p490
+sg5
+L794840L
+sg6
+Nsg23
+g278
+sg25
+S'0xc20d8L'
+p491
+sg27
+Nsbasg280
+(lp492
+S'MOV R0, R7'
+p493
+aS'MOV R1, R6'
+p494
+aS'LDR R2, mem'
+p495
+aS'BL BIO_write'
+p496
+aS'MOV R4, R0'
+p497
+aS'B func'
+p498
+asg319
+Nsg5
+S'0xc20c4L'
+p499
+sg321
+(lp500
+S'0xc2004L'
+p501
+asg6
+Nsg323
+(lp502
+S'0xc20b0L'
+p503
+asg327
+Nsg328
+Nsg329
+S'90f81768417f4fafb0046d55b095c94a'
+p504
+sg331
+S'55c449e61b7be901b3b9dcdc8de5e5d8'
+p505
+sg333
+(lp506
+g456
+ag463
+ag470
+ag477
+ag484
+ag278
+asg335
+Nsbasb.

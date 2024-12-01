@@ -1,0 +1,689 @@
+(ibclass
+BFunc
+p0
+(dp1
+S'hash'
+p2
+NsS'name'
+p3
+S'TS_OBJ_print_bio'
+p4
+sS'start_address'
+p5
+L1299772L
+sS'flag'
+p6
+NsS'program'
+p7
+NsS'bbs'
+p8
+(lp9
+(ibclass
+BBasicBlock
+p10
+(dp11
+S'function'
+p12
+NsS'binstrs'
+p13
+(lp14
+(ibclass
+BInstr
+p15
+(dp16
+g2
+NsS'disasm'
+p17
+S'STMFD   SP!, {R4,R5,LR}'
+p18
+sS'bytes'
+p19
+S'30402de9'
+p20
+sS'disasm_striped'
+p21
+Vpush {r4, r5, lr}
+p22
+sg5
+L1299772L
+sg6
+NsS'mnem'
+p23
+S'STM'
+p24
+sS'address'
+p25
+S'0x13d53cL'
+p26
+sS'basicblock'
+p27
+Nsba(ibclass
+BInstr
+p28
+(dp29
+g2
+Nsg17
+S'SUB     SP, SP, #0x84'
+p30
+sg19
+S'84d04de2'
+p31
+sg21
+Vsub sp, sp, #0x84
+p32
+sg5
+L1299776L
+sg6
+Nsg23
+S'SUB'
+p33
+sg25
+S'0x13d540L'
+p34
+sg27
+Nsba(ibclass
+BInstr
+p35
+(dp36
+g2
+Nsg17
+S'MOV     R4, bio'
+p37
+sg19
+S'0040a0e1'
+p38
+sg21
+Vmov r4, r0
+p39
+sg5
+L1299780L
+sg6
+Nsg23
+S'MOV'
+p40
+sg25
+S'0x13d544L'
+p41
+sg27
+Nsba(ibclass
+BInstr
+p42
+(dp43
+g2
+Nsg17
+S'MOV     R3, #0          ; no_name'
+p44
+sg19
+S'0030a0e3'
+p45
+sg21
+Vmov r3, #0
+p46
+sg5
+L1299784L
+sg6
+Nsg23
+S'MOV'
+p47
+sg25
+S'0x13d548L'
+p48
+sg27
+Nsba(ibclass
+BInstr
+p49
+(dp50
+g2
+Nsg17
+S'MOV     R2, obj         ; a'
+p51
+sg19
+S'0120a0e1'
+p52
+sg21
+Vmov r2, r1
+p53
+sg5
+L1299788L
+sg6
+Nsg23
+S'MOV'
+p54
+sg25
+S'0x13d54cL'
+p55
+sg27
+Nsba(ibclass
+BInstr
+p56
+(dp57
+g2
+Nsg17
+S'MOV     bio, SP         ; buf'
+p58
+sg19
+S'0d00a0e1'
+p59
+sg21
+Vmov r0, sp
+p60
+sg5
+L1299792L
+sg6
+Nsg23
+S'MOV'
+p61
+sg25
+S'0x13d550L'
+p62
+sg27
+Nsba(ibclass
+BInstr
+p63
+(dp64
+g2
+Nsg17
+S'MOV     obj, #0x80      ; buf_len'
+p65
+sg19
+S'8010a0e3'
+p66
+sg21
+Vmov r1, #0x80
+p67
+sg5
+L1299796L
+sg6
+Nsg23
+S'MOV'
+p68
+sg25
+S'0x13d554L'
+p69
+sg27
+Nsba(ibclass
+BInstr
+p70
+(dp71
+g2
+Nsg17
+S'BL      OBJ_obj2txt'
+p72
+sg19
+S'b834fceb'
+p73
+sg21
+Vbl #0xfff0d2e8
+p74
+sg5
+L1299800L
+sg6
+Nsg23
+S'BL'
+p75
+sg25
+S'0x13d558L'
+p76
+sg27
+Nsba(ibclass
+BInstr
+p77
+(dp78
+g2
+Nsg17
+S'LDR     R5, =($_GLOBAL_OFFSET_TABLE_ - 0x13D57C)'
+p79
+sg19
+S'34509fe5'
+p80
+sg21
+Vldr r5, [pc, #0x34]
+p81
+sg5
+L1299804L
+sg6
+Nsg23
+S'LDR'
+p82
+sg25
+S'0x13d55cL'
+p83
+sg27
+Nsba(ibclass
+BInstr
+p84
+(dp85
+g2
+Nsg17
+S'MOV     R2, R0          ; inl'
+p86
+sg19
+S'0020a0e1'
+p87
+sg21
+Vmov r2, r0
+p88
+sg5
+L1299808L
+sg6
+Nsg23
+S'MOV'
+p89
+sg25
+S'0x13d560L'
+p90
+sg27
+Nsba(ibclass
+BInstr
+p91
+(dp92
+g2
+Nsg17
+S'MOV     R1, SP          ; in'
+p93
+sg19
+S'0d10a0e1'
+p94
+sg21
+Vmov r1, sp
+p95
+sg5
+L1299812L
+sg6
+Nsg23
+S'MOV'
+p96
+sg25
+S'0x13d564L'
+p97
+sg27
+Nsba(ibclass
+BInstr
+p98
+(dp99
+g2
+Nsg17
+S'MOV     R0, bio         ; b'
+p100
+sg19
+S'0400a0e1'
+p101
+sg21
+Vmov r0, r4
+p102
+sg5
+L1299816L
+sg6
+Nsg23
+S'MOV'
+p103
+sg25
+S'0x13d568L'
+p104
+sg27
+Nsba(ibclass
+BInstr
+p105
+(dp106
+g2
+Nsg17
+S'BL      BIO_write'
+p107
+sg19
+S'1d16feeb'
+p108
+sg21
+Vbl #0xfff8587c
+p109
+sg5
+L1299820L
+sg6
+Nsg23
+S'BL'
+p110
+sg25
+S'0x13d56cL'
+p111
+sg27
+Nsba(ibclass
+BInstr
+p112
+(dp113
+g2
+Nsg17
+S'LDR     R1, =(aBioCallbackUnk+0x20 - 0x188000)'
+p114
+sg19
+S'24109fe5'
+p115
+sg21
+Vldr r1, [pc, #0x24]
+p116
+sg5
+L1299824L
+sg6
+Nsg23
+S'LDR'
+p117
+sg25
+S'0x13d570L'
+p118
+sg27
+Nsba(ibclass
+BInstr
+p119
+(dp120
+g2
+Nsg17
+S'ADD     R5, PC, R5 ; $_GLOBAL_OFFSET_TABLE_'
+p121
+sg19
+S'05508fe0'
+p122
+sg21
+Vadd r5, pc, r5
+p123
+sg5
+L1299828L
+sg6
+Nsg23
+S'ADD'
+p124
+sg25
+S'0x13d574L'
+p125
+sg27
+Nsba(ibclass
+BInstr
+p126
+(dp127
+g2
+Nsg17
+S'ADD     R1, R5, R1      ; in'
+p128
+sg19
+S'011085e0'
+p129
+sg21
+Vadd r1, r5, r1
+p130
+sg5
+L1299832L
+sg6
+Nsg23
+S'ADD'
+p131
+sg25
+S'0x13d578L'
+p132
+sg27
+Nsba(ibclass
+BInstr
+p133
+(dp134
+g2
+Nsg17
+S'MOV     R0, bio         ; b'
+p135
+sg19
+S'0400a0e1'
+p136
+sg21
+Vmov r0, r4
+p137
+sg5
+L1299836L
+sg6
+Nsg23
+S'MOV'
+p138
+sg25
+S'0x13d57cL'
+p139
+sg27
+Nsba(ibclass
+BInstr
+p140
+(dp141
+g2
+Nsg17
+S'MOV     R2, #1          ; inl'
+p142
+sg19
+S'0120a0e3'
+p143
+sg21
+Vmov r2, #1
+p144
+sg5
+L1299840L
+sg6
+Nsg23
+S'MOV'
+p145
+sg25
+S'0x13d580L'
+p146
+sg27
+Nsba(ibclass
+BInstr
+p147
+(dp148
+g2
+Nsg17
+S'BL      BIO_write'
+p149
+sg19
+S'1716feeb'
+p150
+sg21
+Vbl #0xfff85864
+p151
+sg5
+L1299844L
+sg6
+Nsg23
+S'BL'
+p152
+sg25
+S'0x13d584L'
+p153
+sg27
+Nsba(ibclass
+BInstr
+p154
+(dp155
+g2
+Nsg17
+S'MOV     R0, #1'
+p156
+sg19
+S'0100a0e3'
+p157
+sg21
+Vmov r0, #1
+p158
+sg5
+L1299848L
+sg6
+Nsg23
+S'MOV'
+p159
+sg25
+S'0x13d588L'
+p160
+sg27
+Nsba(ibclass
+BInstr
+p161
+(dp162
+g2
+Nsg17
+S'ADD     SP, SP, #0x84'
+p163
+sg19
+S'84d08de2'
+p164
+sg21
+Vadd sp, sp, #0x84
+p165
+sg5
+L1299852L
+sg6
+Nsg23
+S'ADD'
+p166
+sg25
+S'0x13d58cL'
+p167
+sg27
+Nsba(ibclass
+BInstr
+p168
+(dp169
+g2
+Nsg17
+S'LDMFD   SP!, {bio,R5,LR}'
+p170
+sg19
+S'3040bde8'
+p171
+sg21
+Vpop {r4, r5, lr}
+p172
+sg5
+L1299856L
+sg6
+Nsg23
+S'LDM'
+p173
+sg25
+S'0x13d590L'
+p174
+sg27
+Nsba(ibclass
+BInstr
+p175
+(dp176
+g2
+Nsg17
+S'BX      LR'
+p177
+sg19
+S'1eff2fe1'
+p178
+sg21
+Vbx lr
+p179
+sg5
+L1299860L
+sg6
+Nsg23
+S'BX'
+p180
+sg25
+S'0x13d594L'
+p181
+sg27
+NsbasS'disasm_list'
+p182
+(lp183
+S'STMFD SP!, {R4,R5,LR}'
+p184
+aS'SUB SP, SP, #0x84'
+p185
+aS'MOV R4, bio'
+p186
+aS'MOV R3, #0'
+p187
+aS'MOV R2, obj'
+p188
+aS'MOV bio, SP'
+p189
+aS'MOV obj, #0x80'
+p190
+aS'BL OBJ_obj2txt'
+p191
+aS'LDR R5, =($_GLOBAL_OFFSET_TABLE_ - 0x13D57C)'
+p192
+aS'MOV R2, R0'
+p193
+aS'MOV R1, SP'
+p194
+aS'MOV R0, bio'
+p195
+aS'BL BIO_write'
+p196
+aS'LDR R1, =(aBioCreglbackUnk+0x20 - address0)'
+p197
+aS'ADD R5, PC, R5'
+p198
+aS'ADD R1, R5, R1'
+p199
+aS'MOV R0, bio'
+p200
+aS'MOV R2, #1'
+p201
+aS'BL BIO_write'
+p202
+aS'MOV R0, #1'
+p203
+aS'ADD SP, SP, #0x84'
+p204
+aS'LDMFD SP!, {bio,R5,LR}'
+p205
+aS'BX LR'
+p206
+asS'end_address'
+p207
+Nsg5
+S'0x13d53cL'
+p208
+sS'preds'
+p209
+(lp210
+sg6
+NsS'succs'
+p211
+(lp212
+sS'hash_v3'
+p213
+NsS'flag_v2'
+p214
+NsS'hash_v1'
+p215
+S'860b445a84702917a5eebd93cd56e2f3'
+p216
+sS'hash_v2'
+p217
+S'4f8be8b540acfe6b5d27ae011348684c'
+p218
+sS'mnen_list'
+p219
+(lp220
+g24
+ag33
+ag40
+ag47
+ag54
+ag61
+ag68
+ag75
+ag82
+ag89
+ag96
+ag103
+ag110
+ag117
+ag124
+ag131
+ag138
+ag145
+ag152
+ag159
+ag166
+ag173
+ag180
+asS'neighbour_disasm_list'
+p221
+Nsbasb.

@@ -1,0 +1,13 @@
+openvpn_encrypt
+mss_fixup_ipv6
+ntlm_phase_3
+extract_x509_extension
+asn1_buf_to_c_string
+read_key
+packet_id_read
+mss_fixup_dowork
+test_packet_id_write_short_wrap
+test_packet_id_write_long_wrap
+openvpn_encrypt_aead
+openvpn_encrypt_v1
+tls_crypt_wrap

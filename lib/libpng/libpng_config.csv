@@ -1,0 +1,4 @@
+CVE-2015-7981,1.2.50-2,1.2.50-2+deb8u1,png_set_tIME,,,,,
+CVE-2015-8126,1.2.50-2,1.2.50-2+deb8u1,png_handle_PLTE,png_set_PLTE,png_write_PLTE,,,
+CVE-2015-8472,1.2.50-2+deb8u1,1.2.50-2+deb8u2,png_handle_iCCP,png_handle_sPLT,png_handle_pCAL,png_handle_zTXt,png_handle_iTXt,png_set_PLTE
+CVE-2015-8540,1.2.50-2+deb8u1,1.2.50-2+deb8u2,png_check_keyword,,,,,

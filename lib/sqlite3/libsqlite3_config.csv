@@ -1,0 +1,4 @@
+CVE-2018-8740,3.22.0-1,3.22.0-2,sqlite3EndTable,corruptSchema,
+CVE-2015-3414,3.8.8.3-1,3.8.9-1,sqlite3ExprAddCollateToken,sqlite3ExprAddCollateString,exprAnalyze
+CVE-2015-3415,3.8.8.3-1,3.8.9-1,sqlite3VdbeExec,,
+CVE-2015-3416,3.8.8.3-1,3.8.9-1,sqlite3VXPrintf,sqlite3StrAccumEnlarge,sqlite3AppendChar
